@@ -3,6 +3,7 @@ sudo apt update -y
 sudo apt upgrade -y     
 sudo apt full-upgrade -y
 sudo apt autoremove -y
+sudo apt install python3-pip
 ln -s /mnt/c/users/vernon/desktop desktop
 if [ "$(tail -n 1 ~/.bashrc)" != "#" ]
 then
