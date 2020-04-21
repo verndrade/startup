@@ -21,3 +21,4 @@ then
     echo "alias bashrc='nano ~/.bashrc'" >> ~/.bashrc
     echo "#" >> ~/.bashrc
 fi
+rm startup.sh
