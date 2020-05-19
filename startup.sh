@@ -4,7 +4,7 @@ sudo apt upgrade -y
 sudo apt full-upgrade -y
 sudo apt install python3-pip -y
 sudo apt autoremove -y
-ln -s /mnt/c/users/vernon/desktop desktop
+ln -s /mnt/c/users/vernon/desktop ~/desktop
 git config --global user.email "andradevern@gmail.com"
 git config --global user.name "Vernon Andrade"
 if [ "$(tail -n 1 ~/.bashrc)" != "#" ]
@@ -19,4 +19,4 @@ then
     echo "alias bashrc='nano ~/.bashrc'" >> ~/.bashrc
     echo "#" >> ~/.bashrc
 fi
-rm startup.sh
+rm -rf ~/startup
